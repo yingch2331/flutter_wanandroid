@@ -5,3 +5,9 @@ class StatusEvent {
 
   StatusEvent(this.labelId, this.status, {this.cid});
 }
+
+
+class PageChangeEvent {
+  int page;
+  PageChangeEvent(this.page);
+}
